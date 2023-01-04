@@ -4,4 +4,4 @@ EXPOSE 5000
 WORKDIR /usr/app
 RUN pip install -r requirements.txt
 ENV port 8080
-CMD python app.py 
+CMD python streamlit run streamlit_app.py 
